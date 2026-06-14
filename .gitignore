@@ -1,0 +1,8 @@
+# Next.js
+migas-dashboard/.next/
+migas-dashboard/node_modules/
+migas-dashboard/data/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -226,13 +226,13 @@ export default function MigasDashboard() {
             </div>
             <div style={{ borderTop: `1px solid #1e3055`, paddingTop: "10px", display: "flex", flexDirection: "column", gap: "6px" }}>
               {[
-                { name: "R. Revano Athalla Kartika", nim: "123230150", role: "Ketua" },
-                { name: "Narindera Jati Panuntun",   nim: "123230153", role: "Anggota" },
+                { name: "R. Revano Athalla Kartika", nim: "123230150" },
+                { name: "Narindera Jati Panuntun",   nim: "123230153" },
               ].map((m) => (
                 <div key={m.nim} style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <div>
                     <div style={{ fontSize: "12px", fontWeight: 600, color: "#c8d8f0" }}>{m.name}</div>
-                    <div style={{ fontSize: "10px", color: C.txt2 }}>{m.nim} · {m.role}</div>
+                    <div style={{ fontSize: "10px", color: C.txt2 }}>{m.nim}</div>
                   </div>
                 </div>
               ))}
